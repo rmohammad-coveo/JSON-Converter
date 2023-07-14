@@ -11,7 +11,7 @@ def open_file():
         print("Error when loading file")
 
 def write_file(values):
-    name = input("Enter name of file: ")
+    name = input("Enter name of org: ")
     writer = open(f"{name}.txt", "w")
 
     for i in range(len(values)):
